@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/new-age.css" rel="stylesheet">
+    <link href="css/new-age.min.css" rel="stylesheet">
     <link href="css/overrides.css" rel="stylesheet">
 
   </head>
@@ -45,10 +45,10 @@
               <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Submission</a>
+              <a class="nav-link js-scroll-trigger" href="#submission">Submission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Organizers</a>
+              <a class="nav-link js-scroll-trigger" href="#organizers">Organizers</a>
             </li>
           </ul>
         </div>
@@ -69,22 +69,35 @@
       </div>
     </header>
 
-    <section class="overview bg-primary text-center" id="overview">
+    <section class="overview text-center" id="overview">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Overview</h2>
+          <div class="col-md-12">
+              <h2 class="section-heading">Overview</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
             <h3>Abstract</h3>
             <p class="lead">With the rise of big data, there has been an increasing need to understand who is working in data science, and how they are doing their work. HCI and CSCW researchers have begun to examine these questions. In this workshop, we invite researchers to share their observations, experiences, hypotheses, and insights, in the hopes of developing a taxonomy of work practices and open issues in the behavioral and social study of data science and data science workers. </p>
             <h3>Introduction</h3>
             <p class="lead">The outcomes of data science work are increasingly influential in much of the world. How people work in data science is equally important, if we are to understand, support, and critique as (appropriate) these important societal forces. We invite our colleagues to work with us for a deeper understanding of how human perform the work of data science.</p>
             <p class="lead">Extraordinary claims are made about the promises and current successes of data science [DURRANTE15], HEY09, KAGGLE17, KDNUGGETS18, KIM16, MILLER17, RAJAN13, UHLIR07, VANDERAALST14] While some of these claims are stated for the future [DOBRE14], Agarwal and Dhar editorialize that “This is powerful… we are in principle already there”[AGRAWAL14]. At a different extreme, scholars have criticized the “mythology” of such claims [BOYD12].</p>
             <p class="lead">Further complicating these discussions, there is considerable diversity in the tools and methods [HAYES18c], challenges [HAYES18b], and job-roles [KAGGLE17, KIM16, MILLER14] involved in data science. Detailed study will be necessarily partial and contextualized, adding depth of description and understanding, but potentially lacking a broader view.</p>
+          </div>
+          <div class="col-md-6">
             <p class="lead">Several studies in HCI and CSCW have begun to look at facets of these diverse topics. Passi and Jackson described an on-going tension over the use of algorithmic rules [PASSI17]. They propose that data science students can learn to practice a kind of data vision that treats rules more as guidance (“rules-based”) than as formal constraint (“rules-bound”).</p>
             <p class="lead">Dealing with data, or “data wrangling,” has been estimated to take up 80-90% of the effort in a typical data science project[GOETZ15, KANTER15, RATTENBURY17]. Understanding how people approach their data is therefore important.</p>
             <p class="lead">Bilis contrasted two views of the analyst’s relationship with data [BILIS18. In one view, the analyst takes a relatively passive stance, and receives data as “given” by the environment (“donné”). In a second view, the analyst takes a more active role as s/he captures data (“capta”). Pine and Leboiron made a similar point, claiming that in some cases “human-computer interactions start before the data reaches the computer because various measurement interfaces are the invisible premise of data and databases” (emphasis in their original text) [PINE15].</p>
             <p class="lead">Mentis et al. described curatorial practices with data among transplant surgeons as they engaged in the necessary work of “crafting the image” for one another [MENTIS16], and Taylor et al. offered similar observations how a local community “enacted a multiplicity of ‘small worlds” in their data [TAYLOR15]. Feinberg describes the “design” of data [FEINBERG17a], and Patel et al. similarly describe the creation of features for analysis [PATEL08]. Muller et al. documented the sometimes necessary processes of the creation of data, including the creation of grounded truth data [MULLER19].</p>
             <p class="lead">Recording the outcomes and managing the diverse experimental analytic histories of data science work are also challenging. Despite the promise of literate programming [KNUTH84], people engaged in data science tend to scant their documentation [KERY17, KERY18 RULE18], apparently because of a tension between dynamic exploration and time-consuming explanation [KERY18, RULE18].</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+            <h3>References</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
             <h3>References</h3>
             <ol>
               <li>Ritu Agarwal and Vasant Dhar (2014). Editorial – Big data, data science, and analytics: The opportunity and challenge for IS research. Info. Sys. Res. 25(3), 443-448. </li>
@@ -107,6 +120,10 @@
               <li>Miryung Kim, Thomas Zimmermann, Robert DeLine, and Andrew Begel (2016). The emerging role of data scientists on software development teams. Proc. IEEE CSE 2016, 96-107.</li>
               <li>Donald Knuth (1984). Literate programming. Comp. J. 27(2), 97-111.</li>
               <li>Helena M. Mentis, Ahmed Rahim, and Pierre Theodore (2016). Crafting the image in surgical telemedicine. Proc. CSCW 2016, 744-755.</li>
+            </ol>
+          </div>
+          <div class="col-md-6">   
+            <ol start="21">
               <li>Renée J. Miller (2017). The future of data integration. Proc. KDD 2017, 3.</li>
               <li>Steven Miller (2014). Collaborative approaches needed to close the big data knowledge and skills gap. J. Org. Des. 3(1), 26-30.</li>
               <li>Michael Muller, Ingrid Lange, Dakuo Wang, David Piorkorsky, Jason Tsay, Q. Vera Laio, Casey Dugan, and Tom Erickson (submitted). How data science workers work with data: Discovery, capture, curation, design and creation. Submitted to CHI 2019.</li>
@@ -119,13 +136,12 @@
               <li>Alex S. Taylor, Siân Lindley, Tim Regan, David Sweeney, Vasilis Vlachokyriakos, Lillie Grainger, and Jessa Lingel (2015). Data-in-place: Thinking through relations between data and community. Proc. CHI 2015, 2863-2872.</li>
               <li>Wil M.P. van der Aalst (2014). Data scientist: The engineer of the future. Proc. I-ESA 7, 13-26. </li>
             </ol>
-            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="submission" id="submission">
+    <section class="submission bg-primary" id="submission">
       <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -186,7 +202,7 @@
             &nbsp;
             </div>
              <div class="col-md-8">
-                <!--<p>Submissions for talks are now closed. However, there are still other ways to participate throughout the day. If you are interested, please <a href="mailto:hackathon.workshop@gmail.com">contact us</a> via e-mail and include: </p>
+                <p>Submissions for talks are now closed. However, there are still other ways to participate throughout the day. If you are interested, please <a href="mailto:hackathon.workshop@gmail.com">contact us</a> via e-mail and include: </p>
 
 
                 <ol class="overviewlist">
@@ -213,13 +229,12 @@
       <div class="overlay"></div>
     </section>
     -->
-    <section class="organizers bg-primary" id="organizers">
+    <section class="organizers" id="organizers">
       <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="section-heading">
                     <h2>Organizers</h2>
-                    <p class="text-muted">A little more about us!</p>
                     <hr>
                 </div>
             </div>
