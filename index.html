@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/new-age.min.css" rel="stylesheet">
+    <link href="css/new-age.css" rel="stylesheet">
+    <link href="css/overrides.css" rel="stylesheet">
 
   </head>
 
@@ -33,7 +34,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">HuSDat Workshop</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -41,13 +42,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+              <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+              <a class="nav-link js-scroll-trigger" href="#features">Submission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Organizers</a>
             </li>
           </ul>
         </div>
@@ -57,109 +58,151 @@
     <header class="masthead">
       <div class="container h-100">
         <div class="row h-100">
-          <div class="col-lg-7 my-auto">
+          <div class="col-lg-8 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
-            </div>
-          </div>
-          <div class="col-lg-5 my-auto">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
-                </div>
-              </div>
+              <h1 class="mb-5">HCI Studies of Data Science Work Practices</h1>
+              <p class="lead">A CHI 2019 workshop for researchers or practitioners of Data Science interested in developing a taxonomy of work practices, and opening issues in the behavioral and social study of data science and data science workers.</p>
+              <!--a href="#submission" class="btn btn-outline btn-xl js-scroll-trigger">Submit A Postiion Paper!</a-->
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="download bg-primary text-center" id="download">
+    <section class="overview bg-primary text-center" id="overview">
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Discover what all the buzz is about!</h2>
-            <p>Our app is available on any mobile device! Download now to get started!</p>
-            <div class="badges">
-              <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-              <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+            <h2 class="section-heading">Overview</h2>
+            <h3>Abstract</h3>
+            <p class="lead">With the rise of big data, there has been an increasing need to understand who is working in data science, and how they are doing their work. HCI and CSCW researchers have begun to examine these questions. In this workshop, we invite researchers to share their observations, experiences, hypotheses, and insights, in the hopes of developing a taxonomy of work practices and open issues in the behavioral and social study of data science and data science workers. </p>
+            <h3>Introduction</h3>
+            <p class="lead">The outcomes of data science work are increasingly influential in much of the world. How people work in data science is equally important, if we are to understand, support, and critique as (appropriate) these important societal forces. We invite our colleagues to work with us for a deeper understanding of how human perform the work of data science.</p>
+            <p class="lead">Extraordinary claims are made about the promises and current successes of data science [DURRANTE15], HEY09, KAGGLE17, KDNUGGETS18, KIM16, MILLER17, RAJAN13, UHLIR07, VANDERAALST14] While some of these claims are stated for the future [DOBRE14], Agarwal and Dhar editorialize that “This is powerful… we are in principle already there”[AGRAWAL14]. At a different extreme, scholars have criticized the “mythology” of such claims [BOYD12].</p>
+            <p class="lead">Further complicating these discussions, there is considerable diversity in the tools and methods [HAYES18c], challenges [HAYES18b], and job-roles [KAGGLE17, KIM16, MILLER14] involved in data science. Detailed study will be necessarily partial and contextualized, adding depth of description and understanding, but potentially lacking a broader view.</p>
+            <p class="lead">Several studies in HCI and CSCW have begun to look at facets of these diverse topics. Passi and Jackson described an on-going tension over the use of algorithmic rules [PASSI17]. They propose that data science students can learn to practice a kind of data vision that treats rules more as guidance (“rules-based”) than as formal constraint (“rules-bound”).</p>
+            <p class="lead">Dealing with data, or “data wrangling,” has been estimated to take up 80-90% of the effort in a typical data science project[GOETZ15, KANTER15, RATTENBURY17]. Understanding how people approach their data is therefore important.</p>
+            <p class="lead">Bilis contrasted two views of the analyst’s relationship with data [BILIS18. In one view, the analyst takes a relatively passive stance, and receives data as “given” by the environment (“donné”). In a second view, the analyst takes a more active role as s/he captures data (“capta”). Pine and Leboiron made a similar point, claiming that in some cases “human-computer interactions start before the data reaches the computer because various measurement interfaces are the invisible premise of data and databases” (emphasis in their original text) [PINE15].</p>
+            <p class="lead">Mentis et al. described curatorial practices with data among transplant surgeons as they engaged in the necessary work of “crafting the image” for one another [MENTIS16], and Taylor et al. offered similar observations how a local community “enacted a multiplicity of ‘small worlds” in their data [TAYLOR15]. Feinberg describes the “design” of data [FEINBERG17a], and Patel et al. similarly describe the creation of features for analysis [PATEL08]. Muller et al. documented the sometimes necessary processes of the creation of data, including the creation of grounded truth data [MULLER19].</p>
+            <p class="lead">Recording the outcomes and managing the diverse experimental analytic histories of data science work are also challenging. Despite the promise of literate programming [KNUTH84], people engaged in data science tend to scant their documentation [KERY17, KERY18 RULE18], apparently because of a tension between dynamic exploration and time-consuming explanation [KERY18, RULE18].</p>
+            <h3>References</h3>
+            <ol>
+              <li>Ritu Agarwal and Vasant Dhar (2014). Editorial – Big data, data science, and analytics: The opportunity and challenge for IS research. Info. Sys. Res. 25(3), 443-448. </li>
+              <li>Hélène Bilis (2018). Mapping fiction: Social networks and the novel. Presentation at Shifting (the) boundaries conference, Wellesley College.</li>
+              <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+              <li>Danah Boyd and Kate Crawford (2012). Critical questions for big data: Provocations for a cultural, technological, and scholarly phenonomenon. Info. Comm. Soc. 15(5), 662-679.</li>
+              <li>C. Dobre and F. Xhafa (2014), Intelligent services for big data science. Fut. Gen. Comp. Sys. 37, 267-291.</li>
+              <li>Hugh Durrante-Whyte (2015), Data, knowledge and discovery: Machine learning meets natural science. Proc. KDD 2015, 7.</li>
+              <li>Melanie Feinberg (2017a). A design perspective on data. Proc. CHI 2017, 2952-2963.</li>
+              <li>Michele Goetz (2015). 3 ways data preparation tools help you get ahead of big data. Forrester. https://go.forrester.com/blogs/15-02-17-3_ways_data_preparation_tools_help_you_get_ahead_of_big_data/ .</li>
+              <li>Bob Hayes (2018c). Most used data science tools and technologies in 2017 and what to expect for 2018. BusinessOverBroadway. http://businessoverbroadway.com/most-used-data-science-tools-and-technologies-in-2017-and-what-to-expect-for-2018 .</li>
+              <li>Bob Hayes (2018b). Top 10 challenges to practicing data science at work. BusinessOverBroadway. http://businessoverbroadway .com/top-10-challenges-to-practicing-data-science-at-work .</li>
+              <li>Tony Hey, Stewart Tansley, and Kristin Tolle (2009). The fourth paradigm: Data-intensive scientific discovery. Microsoft Research.</li>
+              <li>Kaggle (2017). Kaggle ML and data science survey, 2017: A big picture view of the state of data science and machine learning. Kaggle. https://www.kaggle.com/kaggle/kaggle-survey-2017 .</li>
+              <li>KDNuggets. (2018). Doing data science: A Kaggle walkthrough – Cleaning data. https://www.kdnuggets.com/2016/03/doing-data-science-kagglea-walkthrough-cleaning-data.html .</li>
+              <li>Sean Kandel, Andreas Paepcke, Joseph Hellerstein, and Jeffrey Heer (2011). Wrangler: Interactive visual specification of data transformation scripts. Proc. CHI 2011, 3363-3372.</li>
+              <li>James Max Kanter and Kalyan Veeramachaneri (2015). Deep feature synthesis: Towards automating data science endeavors. Proc. DSAA 2015, 1-10.</li>
+              <li>Mary Beth Kery, Amber Horvath, and Brad Myers (2017). Variolite: Supporting exploratory programming by data scientists. Proc. CHI 2017, 1265-1276.</li>
+              <li>Mary Beth Kery, Marissa Radensky, Mahima Arya, Bonnie E. John, and Brad A. Myers (2018). The story in the notebook: Exploratory data science using a literate programming tool. Proc. CHI 2018, paper 174.</li>
+              <li>Miryung Kim, Thomas Zimmermann, Robert DeLine, and Andrew Begel (2016). The emerging role of data scientists on software development teams. Proc. IEEE CSE 2016, 96-107.</li>
+              <li>Donald Knuth (1984). Literate programming. Comp. J. 27(2), 97-111.</li>
+              <li>Helena M. Mentis, Ahmed Rahim, and Pierre Theodore (2016). Crafting the image in surgical telemedicine. Proc. CSCW 2016, 744-755.</li>
+              <li>Renée J. Miller (2017). The future of data integration. Proc. KDD 2017, 3.</li>
+              <li>Steven Miller (2014). Collaborative approaches needed to close the big data knowledge and skills gap. J. Org. Des. 3(1), 26-30.</li>
+              <li>Michael Muller, Ingrid Lange, Dakuo Wang, David Piorkorsky, Jason Tsay, Q. Vera Laio, Casey Dugan, and Tom Erickson (submitted). How data science workers work with data: Discovery, capture, curation, design and creation. Submitted to CHI 2019.</li>
+              <li>Samir Passi and Steven J. Jackson (2017). Data vision: Learning to see through algorithmic abstraction. Proc. CSCW 2017, 2436-2447.</li>
+              <li>Kayur Patel, James Fogarty, James A. Landay, and Beverly Harrison (2008). Investigating statistical machine learning as a tool for software development. Proc. CHI 2008, 667-676.</li>
+              <li>Kathleen H. Pine and Max Liboiron (2015). The politics of measurement and action. Proc. CHI 2015, 3147-3156.</li>
+              <li>Krishna Rajan (2013). Informatics for materials science and engineering: Data-driven discovery for materials science and engineering. Elsevier.</li>
+              <li>Tye Rattenbury, Joseph M. Hellerstein, Jeffrey Heer, Sean Kandel, and Connor Carreras (2017). Principles of data wrangling: Practical techniques for data preparation. O’Reilly.</li>
+              <li>Adam Rule, Aurélien Tabard, and James D. Hollan (2018). Exploration and explanation in computational notebooks. Proc. CHI 2018, paper 32.</li>
+              <li>Alex S. Taylor, Siân Lindley, Tim Regan, David Sweeney, Vasilis Vlachokyriakos, Lillie Grainger, and Jessa Lingel (2015). Data-in-place: Thinking through relations between data and community. Proc. CHI 2015, 2863-2872.</li>
+              <li>Wil M.P. van der Aalst (2014). Data scientist: The engineer of the future. Proc. I-ESA 7, 13-26. </li>
+            </ol>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="features" id="features">
+    <section class="submission" id="submission">
       <div class="container">
-        <div class="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
-          <p class="text-muted">Check out what you can do with this app theme!</p>
-          <hr>
-        </div>
         <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
-                </div>
-              </div>
+            <div class="col-md-12">
+                <h1 class="text-center">Submission<br></h1>
             </div>
-          </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-screen-smartphone text-primary"></i>
-                    <h3>Device Mockups</h3>
-                    <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-camera text-primary"></i>
-                    <h3>Flexible Use</h3>
-                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-present text-primary"></i>
-                    <h3>Free to Use</h3>
-                    <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-lock-open text-primary"></i>
-                    <h3>Open Source</h3>
-                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+        <div class="row">            
+            <div class="col-md-6">
+                <h3>Submission Details:</h3>
+                <p>Your submission should be a single PDF file between 2-4 pages in total, and include the following information:</p>
+                <ol class="overviewlist">
+                    <li>Your name, title, affiliation, and email. </li>
+                    <li>A description of one or more themes of particular interest to you that are related to the workshop topic. This may be presented as: an extended abstract summarizing a research idea, a recounting of an experience with a related event, or a story that draws from your own research or event experience.</li>
+                    <li>A short summary of your background, interest in this area, and motivations for participating in the workshop.</li>
+                    <li>If relevant, you may provide links to additional online materials in the PDF. </li>
+                </ol>
+                <p>A title, short abstract (summary) and at least 3 keywords are required fields on the submission form. These are mainly used for easy classification and assignment.</p>
+                <p>We encouage authors to use the ACM SIGCHI Extended Abstract Format for their submissions.<br>
+                Template:<br>
+                 </p><ul class="unorderlist">
+                     <li><a href="SIGCHIExtendedAbstractsFormat.docx">Microsoft Word Template for Extended Abstracts</a></li>
+                     <li><a href="https://github.com/sigchi/Document-Formats/tree/master/LaTeX">LaTeX Template for Extended Abstracts</a></li>
+                     <li><a href="SIGCHIExtendedAbstractsFormat.pdf">PDF Example for Extended Abstracts</a></li>
+                 </ul>
+                <p></p>
+            </div>
+
+             <div class="col-md-6">
+                <h3>Important Dates:</h3>
+                <p>Paper submission deadline: February 12, 2019 (11:59 pm EST)<br>
+                    Notification of acceptance: March 1, 2019</p>
+
+                <p>Applications are open! Please visit our <a href="mailto:husdatworkshop@gmail.com">EasyChair page to submit your proposal(NEED EASY CHAIR LINK)</a></p>
+                <!--<p>Submissions for position papers are now closed. However, there are still other ways to participat in our workshop. If you are interested, please <a href="mailto:husdatworkshop@gmail.com">contact us</a> via e-mail and include: </p-->
+                <ol class="overviewlist">
+               
+                <li>a brief overview of your background;</li>
+                <li>your specific interests as they relate to one or more workshop themes outlined above; and </li>
+                <li>and what you hope to achieve from the workshop. </li>
+                
+                </ol>
+
+                <p>The above information will help us make better suggestions about ways you may participate.</p>
+                <!--<p>We encourage you to <a href="mailto:hackathon.workshop2018@gmail.com">contact us</a> if you have any questions about the submission well in advance of the deadline.</p>-->   
+    
+               <h3>Evaluation:</h3>
+               <ul class="unorderlist">
+                <li>Applications will be peer reviewed by organizers, and where appropriate, external reviewers.</li>
+                <li>Successful applications will be selected based on their relevance to their workshop themes, fit with the program and background of applicants. A small number of successful submissions will be invited to present their accounts at the workshop.</li>
+                <li>Applications will NOT be penalized for lack of adherence to ACM formatting guidelines.</li>
+               </ul>
+    
+             </div>
+        </div>
+        <!--
+        <div class="row">
+            <div class="col-md-2 section-heading">
+            &nbsp;
+            </div>
+             <div class="col-md-8">
+                <!--<p>Submissions for talks are now closed. However, there are still other ways to participate throughout the day. If you are interested, please <a href="mailto:hackathon.workshop@gmail.com">contact us</a> via e-mail and include: </p>
+
+
+                <ol class="overviewlist">
+                
+                <li>a brief overview of your background;</li>
+                <li>your specific interests as they relate to one or more workshop themes outlined above; and </li>
+                <li>and what you hope to achieve from the workshop. </li>
+                
+                </ol>
+
+                <p>The above information will help us make better suggestions about ways you may participate.</p>-->    
+
+                <p class="text-center"><a href="#organizers" class="btn btn-outline btn-xl page-scroll">About the organizers</a></p>
       </div>
     </section>
-
+    <!--
     <section class="cta">
       <div class="cta-content">
         <div class="container">
@@ -169,30 +212,74 @@
       </div>
       <div class="overlay"></div>
     </section>
-
-    <section class="contact bg-primary" id="contact">
+    -->
+    <section class="organizers bg-primary" id="organizers">
       <div class="container">
-        <h2>We
-          <i class="fas fa-heart"></i>
-          new friends!</h2>
-        <ul class="list-inline list-social">
-          <li class="list-inline-item social-twitter">
-            <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item social-facebook">
-            <a href="#">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="list-inline-item social-google-plus">
-            <a href="#">
-              <i class="fab fa-google-plus-g"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-heading">
+                    <h2>Organizers</h2>
+                    <p class="text-muted">A little more about us!</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <h3>Michael Muller (Primary contact)</h3>
+                                <p>Michael Muller works as a researcher at IBM Research AI, where he studies data science work, and collaborates with data science workers to design future tools for data science.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <h3>Bonnie John</h3>
+                                <p>Bonnie John is a Senior Interaction Designer at Bloomberg L. P. where she uses user-centered methods to design and evaluate tools for financial data scientists and collaborates with Project Jupyter.</p>
+                            </div>
+                        </div>
+        </div>
+        <div class="row">
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <h3>Melanie Feinberg </h3>
+                                <p>Melanie Feinberg is an associate professor at the School of Information and Library Science (SILS) at the University of North Carolina at Chapel Hill. She studies the practices by which data is made, and the characteristics of data as both design artifact and design material.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <h3>Mary Beth Kery</h3>
+                                <p>Mary Beth Kery is a PhD student at the Human-Computer Interaction Institute at Carnegie Mellon University. Her research focuses on studying programmer behavior and designing new kinds of programming tools to support exploratory data science work.</p>
+                            </div>
+                        </div>
+        </div>
+         <div class="row">
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <h3>Timothy George</h3>
+                                <p>Timothy George works as a UI/UX designer for Project Jupyter, where he designs next generation data science tools. He also works to develop open standards, protocols and practices for practitioning data scientists.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <h3>Samir Passi</h3>
+                                <p>Samir Passi is a PhD candidate in the Department of Information Science at Cornell University. His research focuses on the forms of human work in data science learning, research, and practice. He studies such forms of work ethnographically in the context of academic as well as corporate data science.</p>
+                            </div>
+                        </div>
+        </div>
+        <div class="row">
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <h3>Steven Jackson</h3>
+                                <p>Steven Jackson is an Associate Professor and Chair of Information Science at Cornell University.  His work addresses questions of ethics, policy and practice in emerging computing fields.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="feature-item">
+                              <h3></h3>
+                              <p></p>
+                          </div>
+                      </div>
+        </div>
     </section>
 
     <footer>

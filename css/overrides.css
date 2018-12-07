@@ -1,0 +1,24 @@
+header.masthead{
+    color: black;
+    background: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.bg-primary {
+    background: #1e68078f!important;
+}
+
+header.masthead .header-content {
+    font-weight: bold;
+  }
+
+#mainNav .navbar-brand {
+  color: #1e6807;           
+  font-weight: bold;
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: #1e6807;
+  }
