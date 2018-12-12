@@ -1,24 +1,30 @@
-header.masthead{
-    color: black;
-    background: url("../img/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
+header.masthead {
+  color: black;
+  background: #223; /*url("../img/background.jpg");*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
 
 .bg-primary {
-    background: #1e68078f!important;
+  background: #1e68078f !important;
 }
 
 header.masthead .header-content {
-    font-weight: bold;s
-  }
-
-#mainNav .navbar-brand {
-  color: #1e6807;           
   font-weight: bold;
 }
 
-#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-    color: #1e6807;
-  }
+header.masthead .header-content h1 {
+  color: palegreen;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  color: white;
+  font-size: 24pt;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+#header-intro {
+  color: white;
+}
