@@ -10,6 +10,12 @@ header.masthead {
   background: #1e68078f !important;
 }
 
+.h1,
+h1 {
+  font-size: 3.5rem;
+  margin-block-end: 1em;
+}
+
 header.masthead .header-content {
   font-weight: bold;
 }
