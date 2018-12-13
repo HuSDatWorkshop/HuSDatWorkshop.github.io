@@ -1,9 +1,9 @@
 header.masthead {
   color: black;
-  background: #223; /*url("../img/background.jpg");*/
+  background: /* #223; */ url("../img/background.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: Auto;
 }
 
 .bg-primary {
@@ -21,16 +21,31 @@ header.masthead .header-content {
 }
 
 header.masthead .header-content h1 {
-  color: palegreen;
+  color: #1e6807;
   font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: white;
+  color: #1e6807;
   font-size: 24pt;
   font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
+#mainNav .navbar-nav > li > a,
+#mainNav .navbar-nav > li > a:focus {
+  color: #1e6807;
+}
+
+#mainNav .navbar-brand {
+  color: fade(black, 70%);
+}
+
+}
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+  color:  #1e6807;
+  font-weight: bold;
+
+}
 #header-intro {
-  color: white;
+  color: rgb(51,51,51 );
 }
